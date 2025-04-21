@@ -1,0 +1,55 @@
+# -----------------------------------
+# Node dependencies (will be installed in Docker)
+# -----------------------------------
+node_modules
+
+# -----------------------------------
+# Production & Dev Build Output
+# -----------------------------------
+.next
+out
+
+# -----------------------------------
+# Local Environment Secrets
+# -----------------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------------
+# Logs & Debugging Junk
+# -----------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -----------------------------------
+# Git Stuff
+# -----------------------------------
+.git
+.gitignore
+
+# -----------------------------------
+# OS-Specific Files
+# -----------------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------------
+# Editor / IDE Folders
+# -----------------------------------
+.vscode
+.idea
+*.swp
+
+# -----------------------------------
+# Testing & Coverage
+# -----------------------------------
+coverage
+__snapshots__
+
+# -----------------------------------
+# Docker & Compose Files (no need inside image)
+# -----------------------------------
+.dockerignore
