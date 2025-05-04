@@ -1,0 +1,29 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variable files
+.env
+.env.*
+
+# Test artifacts
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg*

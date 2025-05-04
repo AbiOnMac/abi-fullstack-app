@@ -1,0 +1,43 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+.env/
+.venv/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Test artifacts
+*.pytest_cache/
+htmlcov/
+.coverage
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git and version control
+.git/
+.gitignore
+
+# Docker-related artifacts
+docker-compose.override.yml
+Dockerfile.*
+*.bak
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
